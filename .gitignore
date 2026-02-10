@@ -1,0 +1,49 @@
+############################################
+# Windows Forms / Desktop .NET
+############################################
+
+# Build results
+bin/
+obj/
+
+# Visual Studio (Desktop projects create lots of local junk)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# Logs / temp
+*.log
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# ClickOnce / publish output
+publish/
+**/app.publish/
+
+# Installer / setup outputs (لو عندك)
+*.msi
+*.exe
+*.appx
+*.appxbundle
+
+# Local databases / files often used in WinForms (اختياري)
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Settings or secrets you don't want to publish (اختياري)
+appsettings.*.json.user
+secrets.json
